@@ -97,7 +97,7 @@ public class Router extends Root{
                 Random randomGenerator = new Random();
                 int randomInt = randomGenerator.nextInt(100);
                 System.out.println("Generated random number for the packet is: " + randomInt);
-                if (randomInt > 9) { //for random probability 20%,each packet has a random number between 0 to 99
+                if (randomInt > 19) { //for random probability 20%,each packet has a random number between 0 to 99
 
                     //İki port numarası verilmiş ise gireceği kısım
                     if(this.SENDPORTS.length != 1){
